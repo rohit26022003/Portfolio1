@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
-// import footer_logo from '../../Assets/footer_logo.svg'
-import user_icon from '../../Assets/user_icon.svg'
+import userIcon from '../../Assets/user_icon.svg';
+
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">
-            <img src={user_icon} alt="" />
+            <img src={userIcon} alt="" />
             <input type="email" placeholder="Enter your email" />
           </div>
           <div className="footer-subscribe">Subscribe</div>
